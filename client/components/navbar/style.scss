@@ -10,6 +10,10 @@
     font-size: 16px;
     line-height: 22px;
     padding: 14px 0 14px 0;
+
+    .logo {
+      padding-right: 80px;
+    }
   }
 
   .red-circle {
@@ -17,5 +21,9 @@
     height: 8px;
     border-radius: 100%;
     background-color: #c31815;
+  }
+
+  .arrow-vector {
+    margin-left: 30px;
   }
 }
