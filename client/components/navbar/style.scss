@@ -1,11 +1,21 @@
 .body {
-    background-color: black !important; 
+  background-color: black !important;
 }
 .componentNavbar {
-    background-color: #ffffff !important; 
+  background-color: #ffffff !important;
 
-    .container {
-        padding: 14px 0 14px 0;
-    }
-    
+  .container {
+    font-family: 'Nunito Sans';
+    font-style: normal;
+    font-size: 16px;
+    line-height: 22px;
+    padding: 14px 0 14px 0;
+  }
+
+  .red-circle {
+    width: 8px;
+    height: 8px;
+    border-radius: 100%;
+    background-color: #c31815;
+  }
 }
