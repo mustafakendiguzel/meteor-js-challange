@@ -1,7 +1,11 @@
 .body {
     background-color: black !important; 
 }
-.navbar {
+.componentNavbar {
     background-color: #ffffff !important; 
-    padding: 14px 0 14px 0;
+
+    .container {
+        padding: 14px 0 14px 0;
+    }
+    
 }
