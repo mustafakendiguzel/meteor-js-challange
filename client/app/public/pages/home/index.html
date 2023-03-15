@@ -1,71 +1,53 @@
 <template name="publicPagesHome">
-  <div class="d-flex flex-row justify-content-center first-sc">
-    <div>
-      <a href="#">
+  <div class="container">
+    <div class="lemon-section d-flex align-items-center rows">
+      <div class="column">
         <img width="750" height="500" src="images/home/lemon.png" alt="menu" />
-      </a>
-    </div>
-    <div class="lemon-content">
-      <div class="d-flex flex-column justify-content-center col gap-4">
-        <div></div>
-        <div class="d-flex flex-row justify-content-around">
-          <div
-            class="text-topic-container d-flex flex-col justify-content-between"
-          >
-            <div>Trending</div>
-            <div class="d-flex flex-col gap-4">
-              <div>
-                <a href="#">
-                  <img src="images/home/love.png" alt="love" />
-                </a>
+      </div>
+      <div class="column flex-fill">
+        <div class="d-flex justify-content-between">
+          <div class="trending">Trending</div>
+          <div>
+            <div class="d-flex flex-row rows">
+              <div class="column">
+                <i class="">
+                  <a href="#">
+                    <img src="images/home/love.png" alt="love" />
+                  </a>
+                </i>
               </div>
-              <div>
-                <a href="#">
-                  <img src="images/home/share.png" alt="share" />
-                </a>
+              <div class="column">
+                <i>
+                  <a href="#">
+                    <img src="images/home/share.png" alt="share" />
+                  </a>
+                </i>
               </div>
-              <div>
-                <a href="#">
-                  <img src="images/home/save.png" alt="save" />
-                </a>
+              <div class="column">
+                <i>
+                  <a href="#">
+                    <img src="images/home/save.png" alt="save" />
+                  </a>
+                </i>
               </div>
             </div>
           </div>
         </div>
-        <div class="align-self-center title-big-context">
+        <h2>
           Cake meme reflects coronavirus absurdity in a world where nothing is
           what it seems
-        </div>
-        <div class="title-context-desc align-self-center">
+        </h2>
+        <p>
           Earlier this month, a viral video depicting hyper-realistic cakes as
           everyday items had folks on social media double-guessing every other
           post, and sometimes even their own realities, effectively launching
           the next meme : “Is this real or is this cake?”
-        </div>
-        <div
-          class="d-flex flex-col justify-content-start gap-3 author align-self-center"
-        >
-          <div>2 hours ago</div>
-          <div class="real-author">By Lucy Hiddleston | 4min read</div>
+        </p>
+        <div class="d-flex flex-fill align-items-center rows">
+          <div class="date column">2 hours ago</div>
+          <div class="author column">By Lucy Hiddleston | 4min read</div>
         </div>
       </div>
     </div>
   </div>
-  <div class="second-sc d-flex justify-content-center">
-    <div
-      class="row-1 short-warning d-flex flex-row justify-content-center align-items-center"
-    >
-      <div class="short-warning-items">
-        <div
-          class="short-warning-title d-flex justify-content-center align-items-center"
-        >
-          Breaking News
-        </div>
-      </div>
-      <div class="short-warning-items">
-        Kanye West says he's running for president in 2020.
-      </div>
-    </div>
-  </div>
-  <div class="third-sc d-flex flex-row justify-content-center"></div>
 </template>
