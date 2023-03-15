@@ -21,13 +21,6 @@ body {
   font-weight: 600;
   font-size: 14px;
 }
-// .title-topic {
-//   color: #c31815;
-//   line-height: 29px;
-//   font-family: 'Poppins';
-//   font-weight: 600;
-//   font-size: 14px;
-// }
 .title-big-context {
   color: #2a2a2a;
   font-family: 'IBM Plex Serif';
@@ -57,5 +50,33 @@ body {
   line-height: 165%;
   .real-author {
     opacity: 0.7;
+  }
+}
+.second-sc {
+  width: 100%;
+  margin-top: 50px;
+
+  .short-warning {
+    height: 80px;
+    width: 79.5%;
+    background-color: #c31815;
+    gap: 60px;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 15px;
+    color: #ffffff;
+    .short-warning-items {
+      .short-warning-title {
+        height: 54px;
+        width: 157px;
+        background-color: #ffffff;
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 15px;
+        color: #c31815;
+      }
+    }
   }
 }
