@@ -1,3 +1,5 @@
+@import '../../text-style/common.scss';
+
 /* @Lemon Section*/
 
 .lemon-section {
@@ -25,4 +27,17 @@
 }
 .news-content .news-title {
   height: 54px;
+}
+
+.location-news-box {
+  height: 216px;
+}
+.location-news-box .location-box-border {
+  width: 90%;
+  height: 60px;
+}
+
+.submit-button {
+  width: 100px;
+  height: 40px;
 }

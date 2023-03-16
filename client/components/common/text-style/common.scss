@@ -1,10 +1,72 @@
 /* @Common*/
 
+/* @Font-Family*/
+
+.ibm-plex-serif {
+  font-family: 'IBM Plex Serif';
+}
+
 .poppins {
   font-family: 'Poppins';
   font-style: normal;
 }
 
+/* @Background-Colors*/
+
 .white-color-background {
   background-color: #ffffff;
+}
+
+.background-color-red {
+  background-color: #c31815;
+}
+
+/* @Colors*/
+
+.color-black {
+  color: #2a2a2a;
+}
+
+.color-red {
+  color: #c31815;
+}
+
+.color-white {
+  color: #ffffff;
+}
+
+/* @Geometrical Shapes*/
+
+.red-circle {
+  @extend .background-color-red;
+  width: 8px;
+  height: 8px;
+  border-radius: 100%;
+}
+
+.red-circle-md {
+  @extend .red-circle;
+  width: 14px !important;
+  height: 14px !important;
+}
+
+/* @Font Size*/
+
+.font-size-18 {
+  font-size: 18px;
+}
+
+.font-size-14 {
+  font-size: 14px;
+}
+
+/* @Others*/
+
+.font-weight-600 {
+  font-weight: 600;
+}
+
+a {
+  color: inherit !important;
+  text-decoration: none !important;
 }
