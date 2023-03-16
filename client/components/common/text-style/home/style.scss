@@ -1,9 +1,6 @@
-/* @Lemon Section*/
+@import '../common.scss';
 
-.poppins {
-  font-family: 'Poppins';
-  font-style: normal;
-}
+/* @Lemon Section*/
 
 .lemon-section-last-part {
   font-weight: 400;
@@ -43,7 +40,7 @@
 
 .white-background {
   height: 54px;
-  background-color: #ffffff;
+  @extend .white-color-background;
 }
 
 .red-section-desc {
@@ -52,4 +49,8 @@
   font-size: 20px;
   line-height: 15px;
   color: #ffffff;
+}
+
+.title-background {
+  @extend .white-color-background;
 }
