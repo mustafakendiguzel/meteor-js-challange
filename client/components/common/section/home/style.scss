@@ -22,7 +22,13 @@
   margin-top: 40px;
 }
 
-.news-content {
+.news-section .all-news {
+  padding-top: 8px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.news-section .news-content {
   width: 916px;
 }
 .news-content .news-title {
@@ -30,7 +36,7 @@
 }
 
 .location-news-box {
-  height: 216px;
+  height: 206px;
 }
 .location-news-box .location-box-border {
   width: 90%;
@@ -40,4 +46,16 @@
 .submit-button {
   width: 100px;
   height: 40px;
+}
+
+.news-content {
+  padding-top: 8px;
+}
+.news-content-box {
+  width: 438px;
+}
+
+.icons-box {
+  font-size: 10px;
+  padding-right: 7px;
 }
