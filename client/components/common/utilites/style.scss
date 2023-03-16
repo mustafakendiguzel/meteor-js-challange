@@ -29,6 +29,17 @@
   padding-right: 30px;
 }
 
+.rows-xxl {
+  @extend .flex-wrap;
+  margin-left: -100px;
+  margin-right: -100px;
+}
+
+.column-xxl {
+  padding-left: 100px;
+  padding-right: 100px;
+}
+
 .rows-y {
   @extend .flex-wrap;
   margin-top: -15px;
