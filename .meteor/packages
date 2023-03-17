@@ -27,3 +27,4 @@ blaze-hot               # Update files using Blaze's API with HMR
 http
 ostrio:flow-router-extra
 fourseven:scss
+reactive-dict
